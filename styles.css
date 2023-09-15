@@ -1,0 +1,71 @@
+* {
+	font-family: "PT Serif", serif;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 320px;
+	margin: auto;
+	padding: 10px;
+}
+
+.postcard-header {
+	display: flex;
+	height: 50px;
+	padding: 5px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+
+.postcard-header h1 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: solid 1px grey;
+	font-size: 15px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+div p {
+	font-size: 16px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(189, 189, 189);
+	padding: 5px;
+	border: none;
+	border-bottom: solid 2px grey;
+}
+
+button:hover {
+	background-color: aqua;
+}
